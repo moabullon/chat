@@ -1,0 +1,107 @@
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin: 20px,200px;
+  text-align: center;
+  border-style: solid;
+  border-bottom: none;
+  background-color: #34dbf9;
+  margin: 200px;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  border-color: grey;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div#messages-display {
+
+
+  margin: 200px;
+  margin-top: 10px;
+  border-style: solid;
+  vertical-align: bottom;
+  border-color: grey;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: #f0f3f4;
+
+
+
+}
+
+div#chat-commands {
+  display:flex;
+  margin: 200px;
+  margin-top: -201px;
+  border-style: solid;
+  border-top: none;
+  color: grey;
+  height: 50px;
+  line-height: 50px;
+  background-color: #34dbf9;
+  align-self: center;
+
+
+}
+
+input#user {
+  width: 150px;
+  height: 20px;
+  margin-left: 10px;
+  flex: 1;
+
+}
+
+input#msg {
+  width: 400px;
+  height: 20px;
+  flex: 2;
+
+}
+
+button#send {
+  height: 25px;
+  width: 130px;
+  flex: 3;
+
+}
+
+button#retrieve {
+  height: 25px;
+  width: 90px;
+  margin: 14px;
+  flex: 4;
+
+}
+
+::-webkit-input-placeholder {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+
+p {
+  border-style: solid;
+  border-color: grey;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 50px;
+  border-radius: 5px;
+  line-height: 50px;
+  background-color: #34dbf9;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+
+}
+
+#inputs-bottom{
+  border-style: solid;
+}
